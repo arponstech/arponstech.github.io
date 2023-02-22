@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>3d model</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta name="generator" content="Geany 1.37.1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	
+	 <link href="../css/style.css" rel="stylesheet">
+     <script src="../js/webcomponents-loader.js"></script> 
+     <script src="../js/intersection-observer.js"></script>
+     <script src="../js/ResizeObserver.js"></script> 
+     <script src="../js/focus-visible.js" defer></script>
+	
+</head>
+
+<body>
+    <model-viewer src="scene.gltf" alt="A 3D model of a car" shadow-intensity="1" camera-controls auto-rotate ar >
+    </model-viewer>
+	  <script type="module"
+		  src="../js/model-viewer.min.js">
+	  </script>
+	<script nomodule
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js">
+	</script>
+</body>
+
+</html>
